@@ -10,10 +10,10 @@ import com.hfxsxjb.luoyu.whatsfordinner.R;
  * Created by luoyu_000 on 2017/6/2.
  */
 
-public class HomeViewHolder extends RecyclerView.ViewHolder {
+public class HomeTextViewHolder extends RecyclerView.ViewHolder {
     public TextView textView;
 
-    public HomeViewHolder(View view) {
+    public HomeTextViewHolder(View view) {
         super(view);
         textView = (TextView)view.findViewById(R.id.textView);
     }
